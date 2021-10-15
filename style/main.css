@@ -1,0 +1,126 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+}
+
+
+.container h2{
+    color: #fff;
+}
+
+.container img{
+    width: 15%;
+    margin-left: 5px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/* Filme principal */
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/aruadomedo2.jpeg");
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titulo{
+    margin-top: 15%;
+    
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    font-weight: 500;
+    
+}
+
+.button{
+    background-color: rgba(0,0,0,0.50);
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+    cursor: pointer;
+    transition: 3s ease all;
+}
+
+.button:hover{
+    background-color: white;
+    color:black;
+}
+
+.button i{
+    margin-right: 5px;
+}
+
+.filme-principal .container{
+        margin-left: 15px;
+        width: 80%;
+}
+
+.box-filme{
+height: 100%;
+width: 100%;
+display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 20px;
+}
+
+.primeiro-carrosel h2{
+    font-weight: 100;
+    font-size: 32px;
+    margin-top: 40px;
+    color: #aaa;
+}
+
+.segundo-carrosel-filmes{
+    margin-top: 20px;
+}
+
+.segundo-carrosel h2{
+    font-weight: 100;
+    font-size: 32px;
+    margin-top: 40px;
+    color: #aaa;
+}
