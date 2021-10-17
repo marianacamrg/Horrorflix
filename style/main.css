@@ -10,9 +10,14 @@
 }
 
 body{
-    background: var(--preto);
+    background: white;
     font-family: 'Montserrat', sans-serif;
-    color:#fff;
+    color:#141414;
+}
+
+body.dark-mode {
+	background-color: var(--preto);
+	color: #e5e8e8;
 }
 
 
@@ -123,4 +128,23 @@ display: block;
     font-size: 32px;
     margin-top: 40px;
     color: #aaa;
+}
+
+footer.dark-mode {
+	background-color: #8d9797;
+	color: #000401;
+}
+
+button.dark-mode {
+	background-color: #e5e8e8;
+	color: #4e545c;
+}
+
+button.dark-mode:hover {
+	background-color: #4e545c;
+	color: #e5e8e8;
+}
+
+nav.dark-mode {
+    color: red;
 }
